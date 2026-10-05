@@ -1,4 +1,4 @@
-# token-budget
+# token-budget — система экономии токенов
 
 Система, которая показывает, куда у тебя уходят токены в Claude Code, и
 удерживает расход дальше — без твоего участия.
@@ -74,11 +74,11 @@
 
 ---
 
-## Установка
+## Как поставить себе
 
 ```bash
-git clone <адрес репозитория>
-cd token-budget
+git clone https://github.com/daniil-sosnitsky/ai-style.git
+cd ai-style/skills/token-budget
 
 ./install.sh          # macOS, Linux
 .\install.ps1         # Windows
@@ -205,4 +205,8 @@ python scripts/token_report.py --days 14 --compare baseline.json
 
 ## Лицензия
 
-MIT — бери и ставь себе.
+[MIT](../../LICENSE) — бери и ставь себе.
+
+---
+
+Разборы и вопросы — в канале: [@ai_styledanila](https://t.me/ai_styledanila)

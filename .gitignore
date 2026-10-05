@@ -1,0 +1,17 @@
+# секреты
+.env
+
+# локальные файлы token-budget
+pricing.json
+baseline.json
+*.snapshot.json
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# служебное
+.DS_Store
+Thumbs.db
